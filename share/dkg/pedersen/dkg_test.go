@@ -7,10 +7,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/group/edwards25519"
-	"go.dedis.ch/kyber/v3/share"
-	vss "go.dedis.ch/kyber/v3/share/vss/pedersen"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/group/edwards25519"
+	"github.com/nikkolasg/kyber/share"
+	vss "github.com/nikkolasg/kyber/share/vss/pedersen"
 )
 
 var suite = edwards25519.NewBlakeSHA256Ed25519()

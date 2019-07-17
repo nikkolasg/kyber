@@ -14,9 +14,9 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"go.dedis.ch/kyber/v3/pairing"
-	"go.dedis.ch/kyber/v3/share"
-	"go.dedis.ch/kyber/v3/sign/bls"
+	"github.com/nikkolasg/kyber/pairing"
+	"github.com/nikkolasg/kyber/share"
+	"github.com/nikkolasg/kyber/sign/bls"
 )
 
 // SigShare encodes a threshold BLS signature share Si = i || v where the 2-byte

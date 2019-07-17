@@ -8,10 +8,10 @@ import (
 	"io"
 	"math/big"
 
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/group/internal/marshalling"
-	"go.dedis.ch/kyber/v3/group/mod"
-	"go.dedis.ch/kyber/v3/util/random"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/group/internal/marshalling"
+	"github.com/nikkolasg/kyber/group/mod"
+	"github.com/nikkolasg/kyber/util/random"
 )
 
 var one = big.NewInt(1)

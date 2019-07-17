@@ -3,9 +3,9 @@ package shuffle
 import (
 	"crypto/cipher"
 
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/proof"
-	"go.dedis.ch/kyber/v3/util/random"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/proof"
+	"github.com/nikkolasg/kyber/util/random"
 )
 
 func bifflePred() proof.Predicate {

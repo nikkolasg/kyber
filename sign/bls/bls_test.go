@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/pairing/bn256"
-	"go.dedis.ch/kyber/v3/util/random"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/pairing/bn256"
+	"github.com/nikkolasg/kyber/util/random"
 )
 
 func TestBLS(t *testing.T) {

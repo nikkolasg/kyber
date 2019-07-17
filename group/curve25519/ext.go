@@ -6,9 +6,9 @@ import (
 	"io"
 	"math/big"
 
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/group/internal/marshalling"
-	"go.dedis.ch/kyber/v3/group/mod"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/group/internal/marshalling"
+	"github.com/nikkolasg/kyber/group/mod"
 )
 
 type extPoint struct {

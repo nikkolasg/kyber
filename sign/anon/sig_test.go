@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"testing"
 
-	"go.dedis.ch/kyber/v3"
-	"go.dedis.ch/kyber/v3/group/edwards25519"
-	"go.dedis.ch/kyber/v3/util/random"
-	"go.dedis.ch/kyber/v3/xof/blake2xb"
+	"github.com/nikkolasg/kyber"
+	"github.com/nikkolasg/kyber/group/edwards25519"
+	"github.com/nikkolasg/kyber/util/random"
+	"github.com/nikkolasg/kyber/xof/blake2xb"
 )
 
 // This example demonstrates signing and signature verification

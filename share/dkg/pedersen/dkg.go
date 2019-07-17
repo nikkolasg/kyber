@@ -13,11 +13,11 @@ import (
 	"errors"
 	"fmt"
 
-	"go.dedis.ch/kyber/v3"
+	"github.com/nikkolasg/kyber"
 
-	"go.dedis.ch/kyber/v3/share"
-	vss "go.dedis.ch/kyber/v3/share/vss/pedersen"
-	"go.dedis.ch/kyber/v3/sign/schnorr"
+	"github.com/nikkolasg/kyber/share"
+	vss "github.com/nikkolasg/kyber/share/vss/pedersen"
+	"github.com/nikkolasg/kyber/sign/schnorr"
 )
 
 // Suite wraps the functionalities needed by the dkg package

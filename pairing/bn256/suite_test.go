@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"testing"
 
-	"go.dedis.ch/kyber/v3"
+	"github.com/nikkolasg/kyber"
 	"go.dedis.ch/protobuf"
 
 	"github.com/stretchr/testify/require"
-	"go.dedis.ch/kyber/v3/util/random"
+	"github.com/nikkolasg/kyber/util/random"
 	"golang.org/x/crypto/bn256"
 )
 
